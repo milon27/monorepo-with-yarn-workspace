@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "target": "ESNext",
+    "module": "CommonJS", // ESNext
+    "moduleResolution": "node",
+
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "importsNotUsedAsValues": "remove",
+    "stripInternal": false
+  }
+}

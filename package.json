@@ -1,0 +1,25 @@
+{
+    "name": "mono",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "packageManager": "yarn@4.0.1",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "shared:add": "yarn workspace @mono/shared add",
+        "web:add": "yarn workspace @mono/web add",
+        "web:dev": "yarn workspace @mono/web dev",
+        "all:clean": "find ./ -name node_modules -type d -exec rm -rf {} +"
+    },
+    "engines": {
+        "node": ">=18.16.0"
+    },
+    "author": "milon27",
+    "devDependencies": {
+        "@types/node": "20.8.9",
+        "typescript": "5.2.2"
+    }
+}
