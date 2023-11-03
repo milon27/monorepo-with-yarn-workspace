@@ -1112,6 +1112,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-transform-object-assign@npm:^7.16.7":
+  version: 7.22.5
+  resolution: "@babel/plugin-transform-object-assign@npm:7.22.5"
+  dependencies:
+    "@babel/helper-plugin-utils": "npm:^7.22.5"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: c80ca956ccc45c68a6f35e8aea80e08c0a653e4baf243727d4258f242d312d71be20e3fad35a1f2cd9d58b30dcbb5cdf5f8d6c6614a3f8c6079d90f9b1dadee6
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-transform-object-rest-spread@npm:^7.22.15":
   version: 7.22.15
   resolution: "@babel/plugin-transform-object-rest-spread@npm:7.22.15"
@@ -1532,7 +1543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.13.0":
+"@babel/preset-typescript@npm:^7.13.0, @babel/preset-typescript@npm:^7.16.7":
   version: 7.23.2
   resolution: "@babel/preset-typescript@npm:7.23.2"
   dependencies:
@@ -2240,12 +2251,13 @@ __metadata:
     prettier: "npm:^2.4.1"
     react: "npm:18.2.0"
     react-native: "npm:0.72.6"
+    react-native-reanimated: "npm:^3.5.4"
     react-test-renderer: "npm:18.2.0"
     typescript: "npm:4.8.4"
   languageName: unknown
   linkType: soft
 
-"@mono/shared@workspace:*, @mono/shared@workspace:^, @mono/shared@workspace:packages/shared":
+"@mono/shared@workspace:*, @mono/shared@workspace:packages/shared":
   version: 0.0.0-use.local
   resolution: "@mono/shared@workspace:packages/shared"
   dependencies:
@@ -2271,7 +2283,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mono/web@workspace:packages/web"
   dependencies:
-    "@mono/shared": "workspace:^"
+    "@mono/shared": "workspace:*"
     "@types/react": "npm:18.2.15"
     "@types/react-dom": "npm:18.2.7"
     "@vitejs/plugin-react": "npm:4.0.3"
@@ -8745,6 +8757,27 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 2bdb6b93fbb1820b024b496042cce405c57e2f85e777c9aabd55f9b26d145408f9f74f5934676ffdc46f3dcff656d78413a6e43968e7b3f92eea35b3052e9053
+  languageName: node
+  linkType: hard
+
+"react-native-reanimated@npm:^3.5.4":
+  version: 3.5.4
+  resolution: "react-native-reanimated@npm:3.5.4"
+  dependencies:
+    "@babel/plugin-transform-object-assign": "npm:^7.16.7"
+    "@babel/preset-typescript": "npm:^7.16.7"
+    convert-source-map: "npm:^2.0.0"
+    invariant: "npm:^2.2.4"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.0.0-0
+    "@babel/plugin-proposal-optional-chaining": ^7.0.0-0
+    "@babel/plugin-transform-arrow-functions": ^7.0.0-0
+    "@babel/plugin-transform-shorthand-properties": ^7.0.0-0
+    "@babel/plugin-transform-template-literals": ^7.0.0-0
+    react: "*"
+    react-native: "*"
+  checksum: 68182fdc5725bee1220f06a850eb94d81f119d8e661d55be601d83ebfd01268e84529ab5677691dc3d5f408378b30ef059834f8859c3e4584c5e97754619d3f5
   languageName: node
   linkType: hard
 
