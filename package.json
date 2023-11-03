@@ -10,6 +10,7 @@
     ],
     "scripts": {
         "shared:add": "yarn workspace @mono/shared add",
+        "mobile:add": "yarn workspace @mono/mobile add",
         "web:add": "yarn workspace @mono/web add",
         "web:dev": "yarn workspace @mono/web dev",
         "all:clean": "find ./ -name node_modules -type d -exec rm -rf {} +"

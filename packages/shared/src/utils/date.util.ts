@@ -1,4 +1,3 @@
-import console from "console"
 import { format } from "date-fns"
 
 export const DateUtil = {
